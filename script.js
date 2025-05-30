@@ -1,4 +1,3 @@
-// js code
 const words = {
     noun: ['The turkey', 'The monkey', 'My teacher', 'The dog'],
     verb: ['sat on', 'danced with', 'saw', 'ate'],
@@ -25,7 +24,7 @@ wordButtons.forEach(button => {
             const randomWord = words[category][Math.floor(Math.random() * words[category].length)];
             selectedWords[category] = randomWord;
 
-            // Speak the selected word 
+            // Speak the selected word
             speakNow(randomWord);
             updateStory();
         }
