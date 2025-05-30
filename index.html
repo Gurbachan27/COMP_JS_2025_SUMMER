@@ -10,7 +10,39 @@
 </head>
 
 <body>
+    <div class="storymaker">
+        <div class="word-section">
+            <button class="word-button noun-button" data-category="noun">
+                <i class="fas fa-user"></i> Noun
+            </button>
+            <button class="word-button verb-button" data-category="verb">
+                <i class="fas fa-running"></i> Verb
+            </button>
+            <button class="word-button adjective-button" data-category="adjective">
+                <i class="fas fa-paint-brush"></i> Adj
+            </button>
+            <button class="word-button object-button" data-category="object">
+                <i class="fas fa-cube"></i> Object
+            </button>
+            <button class="word-button place-button" data-category="place">
+                <i class="fas fa-map-marker-alt"></i> Place
+            </button>
+        </div>
+        <div class="story-display" id="story-display">Your story will appear here...</div>
+        <div class="action-buttons">
+            <button class="action-button" id="generate-random-story">
+                <i class="fas fa-random"></i> Generate Random Story
+            </button>
+            <button class="action-button" id="generate-custom-story">
+                <i class="fas fa-pencil-alt"></i> Generate Custom Story
+            </button>
+            <button class="action-button" id="reset-button">
+                <i class="fas fa-undo"></i> Reset
+            </button>
+        </div>
+    </div>
 
+    <script src="script.js"></script>
 </body>
 
 </html>
