@@ -1,0 +1,138 @@
+body {
+    background-color: #f0f8ff;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+.storymaker {
+    width: 100%;
+    height: 100%;
+    background-color: yellow;
+    display: flex;
+    border: 5px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    padding-top: 20%;
+}
+
+.word-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.word-button {
+    width: 80px;
+    height: 80px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+    color: white;
+    font-size: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.noun-button {
+    background-color: #4CAF50;
+}
+
+
+/* Green */
+
+.verb-button {
+    background-color: #2196F3;
+}
+
+
+/* Blue */
+
+.adjective-button {
+    background-color: #FF9800;
+}
+
+
+/* Orange */
+
+.object-button {
+    background-color: #9C27B0;
+}
+
+
+/* Purple */
+
+.place-button {
+    background-color: #F44336;
+}
+
+
+/* Red */
+
+.word-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+.story-display {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.5em;
+    width: 80%;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.action-button {
+    background-color: #FF5722;
+    /* Different color for action buttons */
+    color: white;
+    padding: 15px 25px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 0 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s, box-shadow 0.2s, transform 0.2s;
+    display: flex;
+    align-items: center;
+}
+
+.action-button:hover {
+    background-color: #E64A19;
+    /* Darker shade on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+    transform: translateY(-2px);
+}
+
+.action-button i {
+    margin-right: 8px;
+    /* Space between icon and text */
+}
+
+i {
+    padding-right: 5px;
+}
